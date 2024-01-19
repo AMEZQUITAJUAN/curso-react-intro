@@ -1,0 +1,35 @@
+:root {
+    --search-bg-color: #F3FBFC;
+    --search-border-color: #202329;
+    --search-placeholder-color: #A5A5A5;
+    --search-outline-color: #61DAFA;
+  }
+  
+  .TodoSearch {
+    background: var(--search-bg-color);
+    border-radius: 8px;
+    border: 2px solid var(--search-border-color);
+    margin: 0 24px;
+    height: 64px;
+    width: calc(100% - 62px);
+    font-size: 24px;
+    text-align: center;
+    transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  .TodoSearch::placeholder {
+    color: var(--search-placeholder-color);
+    font-weight: 400;
+  }
+  
+  .TodoSearch:focus {
+    outline: none;
+    border-color: var(--search-outline-color);
+    box-shadow: 0 0 10px rgba(97, 218, 250, 0.5);
+  }
+  
+  /* Efecto hover para resaltar */
+  .TodoSearch:hover {
+    background: #ebf9fa;
+  }
+  

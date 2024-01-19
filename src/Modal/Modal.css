@@ -1,0 +1,38 @@
+.Modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    padding: 20px;
+    z-index: 9999;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #333;
+  }
+  
+  .Modal h2 {
+    color: #ff00ff;
+  }
+  
+  .Modal p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .Modal button {
+    background-color: #61DAFA;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .Modal button:hover {
+    background-color: #cc00cc;
+  }
+  

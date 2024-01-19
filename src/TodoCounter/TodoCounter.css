@@ -1,0 +1,34 @@
+:root {
+    --counter-font-size: 24px;
+    --counter-padding: 48px;
+    --main-color: #3498db; /* Puedes cambiar este color a tu elección */
+  }
+  
+  .TodoCounter {
+    font-size: var(--counter-font-size);
+    text-align: center;
+    margin: 0;
+    padding: var(--counter-padding);
+    font-weight: bold;
+    color: var(--main-color);
+    background: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .TodoCounter:hover {
+    background: var(--main-color);
+    color: #fff;
+  }
+  
+  .TodoCounter span {
+    font-weight: normal;
+    font-style: italic;
+    color: #777;
+  }
+  
+  /* Agregamos una sutil animación de pulsación */
+  .TodoCounter:active {
+    transform: scale(0.95);
+  }
